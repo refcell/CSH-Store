@@ -5,16 +5,15 @@
    position:relative;
 }
 ul.tab {
+    clear:left;
+    float:left;
     list-style-type: none;
     color: white;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     /*border: 1px solid #ccc;*/
     background-color: transparent;
     position:relative;
-    clear:left;
-    float:left;
     left:50%;
     text-align:center;
 }
@@ -47,10 +46,10 @@ ul.tab li a:hover {background-color: lighter(80%);}
 /* Create an active/current tablink class */
 ul.tab li a:focus, .active {background-color: lighter(60%);}
 
-/* Style the tab content */
+/* Style the tab content 
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    /*border: 1px solid #ccc;*/
+    border: 1px solid #ccc;
     border-top: none;
-}
+}*/
