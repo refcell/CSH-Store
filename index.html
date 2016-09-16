@@ -12,7 +12,28 @@
   <body>
     <section class="page-header">
       <h1 class="project-name">Cold Spring Harbor School Store</h1>
-      <h2 class="project-tagline">Welcome to our store! Browse, Find, and Buy!</h2>
+      <div id="tabs">
+      <ul class="nav nav-tabs nav-justified">
+        <li class="active"><a href="#" class="tablinks" onclick="openCity(event, 'London')">Home</a></li>
+        <li><a href="#" class="tablinks" onclick="openCity(event, 'London')">Menu 1</a></li>
+        <li><a href="#" class="tablinks" onclick="openCity(event, 'London')">Menu 2</a></li>
+        <li><a href="#" class="tablinks" onclick="openCity(event, 'London')"Menu 3</a></li>
+      </ul>
+      <div id="London" class="tabcontent">
+      <h3>London</h3>
+      <p>London is the capital city of England.</p>
+      </div>
+
+      <div id="Paris" class="tabcontent">
+      <h3>Paris</h3>
+      <p>Paris is the capital of France.</p> 
+      </div>
+
+      <div id="Tokyo" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+      </div>
     </section>
 
     <section class="main-content">
