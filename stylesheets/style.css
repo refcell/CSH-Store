@@ -14,7 +14,7 @@ ul.tab {
     /*border: 1px solid #ccc;*/
     background-color: transparent;
     position:relative;
-    right:50%;
+    left:50%;
     text-align:center;
 }
 
