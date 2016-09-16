@@ -6,10 +6,23 @@ ul.tab {
     overflow: hidden;
     /*border: 1px solid #ccc;*/
     background-color: transparent;
+    position:relative;
+    clear:left;
+    float:left;
+    left:50%;
+    text-align:center;
 }
 
 /* Float the list items side by side */
-ul.tab li {float: left;}
+ul.tab li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
 
 /* Style the links inside the list items */
 ul.tab li a {
