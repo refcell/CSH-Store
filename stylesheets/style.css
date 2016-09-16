@@ -8,7 +8,6 @@ ul.tab {
     clear:left;
     float:left;
     list-style-type: none;
-    color: white;
     margin: 0;
     padding: 0;
     /*border: 1px solid #ccc;*/
@@ -32,7 +31,7 @@ ul.tab li {
 /* Style the links inside the list items */
 ul.tab li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
