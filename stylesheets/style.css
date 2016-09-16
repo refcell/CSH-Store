@@ -1,3 +1,9 @@
+#tabs {
+   float:left;
+   width:100%;
+   overflow:hidden;
+   position:relative;
+}
 ul.tab {
     list-style-type: none;
     color: white;
