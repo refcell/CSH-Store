@@ -4,6 +4,12 @@
    overflow:hidden;
    position:relative;
 }
+
+#map {
+        width: 100%;
+        height: 400px;
+     }
+     
 ul.tab {
     clear:left;
     float:left;
