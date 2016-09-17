@@ -5,6 +5,12 @@
    position:relative;
 }
 
+.ribbon {
+   position: relative;
+   top: -16px;
+   right: -706px;
+}
+
 #map {
         width: 100%;
         height: 400px;
