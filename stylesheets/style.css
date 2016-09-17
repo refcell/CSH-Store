@@ -5,10 +5,13 @@
    position:relative;
 }
 
-.ribbon {
-   position: relative;
-   top: -16px;
-   right: -706px;
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
 #map {
