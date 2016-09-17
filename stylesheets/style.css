@@ -8,6 +8,9 @@
 #content {
     position: relative;
 }
+#content a:hover {
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fc/Translucent_50_percent_white.png);
+}
 .ribbon {
     position: absolute;
     top: 0px;
@@ -55,7 +58,7 @@ ul.tab li a {
 }
 
 /* Change background color of links on hover */
-ul.tab li a:hover {background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fc/Translucent_50_percent_white.png)}
+ul.tab li a:hover {background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fc/Translucent_50_percent_white.png);}
 
 /* Create an active/current tablink class */
 ul.tab li a:focus, .active {background-color: lighter(60%);}
