@@ -30,9 +30,15 @@
     <script>
       function initMap() {
         var mapDiv = document.getElementById('map');
+        var mypos = {lat: 40.860, lng: -73.447};
         var map = new google.maps.Map(mapDiv, {
-            center: {lat: 40.860, lng: -73.447},
+            center: mypos,
             zoom: 12
+        });
+        var marker = new google.maps.Marker({
+          position: mypos,
+          map: map,
+          title: 'Hello World!'
         });
       }
     </script>
