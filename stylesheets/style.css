@@ -8,7 +8,7 @@
 #content {
     position: relative;
 }
-#content a:hover {
+div.content a:hover {
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fc/Translucent_50_percent_white.png);
 }
 .ribbon {
