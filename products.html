@@ -35,12 +35,10 @@
           orderByOptions['keys'] = [{label: 'Relevance', key: ''} , {label: 'Date', key: 'date'}];
           customSearchOptions['enableOrderBy'] = true;
           customSearchOptions['orderByOptions'] = orderByOptions;
-          customSearchOptions['overlayResults'] = true;
           var customSearchControl =   new google.search.CustomSearchControl('013399496566584167445:4ioc-1-bayk', customSearchOptions);
           customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
           var options = new google.search.DrawOptions();
           options.setAutoComplete(true);
-          customSearchControl.draw('cse', options);
       </div>
       <h1 style="font-size:25px;">Enjoy our Products</h1>
       <br />
