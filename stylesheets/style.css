@@ -9,7 +9,8 @@
  border: none;
  outline:none;
 }
-.products td {
+
+.products td, tr {
    border:none;
    outline:none;
 }
