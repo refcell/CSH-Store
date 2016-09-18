@@ -4,7 +4,9 @@
    overflow:hidden;
    position:relative;
 }
-
+table {
+ border: none;
+}
 #content {
     position: relative;
 }
