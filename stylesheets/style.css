@@ -4,8 +4,9 @@
    overflow:hidden;
    position:relative;
 }
-table {
+.products {
  border: none;
+ outline:none;
 }
 #content {
     position: relative;
