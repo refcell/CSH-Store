@@ -4,15 +4,10 @@
    overflow:hidden;
    position:relative;
 }
-.products {
-   border-collapse:collapse;
- border: none;
- outline:none;
+tr, td, th
+{
+  border: 0;
 }
-
-.products td, tr {
-   border:none;
-   outline:none;
 }
 #content {
     position: relative;
