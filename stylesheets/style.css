@@ -5,8 +5,13 @@
    position:relative;
 }
 .products {
+   border-collapse:collapse;
  border: none;
  outline:none;
+}
+.products td {
+   border:none;
+   outline:none;
 }
 #content {
     position: relative;
