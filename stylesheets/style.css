@@ -4,6 +4,12 @@
    overflow:hidden;
    position:relative;
 }
+#main-content {
+   background-image:url(yourimage.jpg);
+    background-position:right;
+    width:700px;
+    height:400px;
+}
 tr, td, th
 {
   border: 0;
