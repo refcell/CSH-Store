@@ -11,6 +11,9 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script>
+      $("#slideshow > div:gt(0)").hide();
+      $("#slideshow > div:gt(1)").hide();
+      $("#slideshow > div:gt(2)").hide();
       $("#slideshow > div:gt(3)").hide();
       setInterval(function() { 
         $('#slideshow > div:first')
