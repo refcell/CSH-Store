@@ -4,6 +4,9 @@
    overflow:hidden;
    position:relative;
 }
+.secondmain{
+   background-color:black;
+}
 #slideshow { 
     margin: 50px auto; 
     position: relative; 
