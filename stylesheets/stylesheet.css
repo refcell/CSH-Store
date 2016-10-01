@@ -60,6 +60,7 @@ a {
   background-image: linear-gradient(120deg, #155799, #159957); 
   max-width:200px; 
   max-height:200px;
+  overflow: visible;
 }
 
 @media screen and (min-width: 64em) {
