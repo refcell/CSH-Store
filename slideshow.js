@@ -1,18 +1,9 @@
-var imgArray = [
-    'http://placehold.it/300x200',
-    'http://placehold.it/200x100',
-    'http://placehold.it/400x300'],
-    curIndex = 0;
-    imgDuration = 3000;
+var slides = document.querySelectorAll('#slides .slide');
+var currentSlide = 0;
+var slideInterval = setInterval(nextSlide,2000);
 
-function slideShow() {
-    document.getElementById('slider').className += "fadeOut";
-    setTimeout(function() {
-        document.getElementById('slider').src = imgArray[curIndex];
-        document.getElementById('slider').className = "";
-    },1000);
-    curIndex++;
-    if (curIndex == imgArray.length) { curIndex = 0; }
-    setTimeout(slideShow, imgDuration);
+function nextSlide() {
+    slides[currentSlide].className = 'slide';
+    currentSlide = (currentSlide+1)%slides.length;
+    slides[currentSlide].className = 'slide showing';
 }
-slideShow();
