@@ -108,6 +108,24 @@
       <br />
       <br />
       <br />
+      <script language="JavaScript"> 
+var i = 0; var path = new Array(); 
+
+// LIST OF IMAGES 
+path[0] = "image_1.gif"; 
+path[1] = "image_2.gif"; 
+path[2] = "image_3.gif"; 
+
+function swapImage() 
+{ 
+document.slide.src = path[i]; 
+if(i < path.length - 1) i++; 
+else i = 0; 
+setTimeout("swapImage()",3000); 
+} 
+window.onload=swapImage; 
+</script> 
+<img height="200" name="slide" src="image_1.gif" width="400" />
       <h1>
 <a id="the-cold-spring-harbor-school-store-sells-many-different-items" class="anchor" href="#the-cold-spring-harbor-school-store-sells-many-different-items" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The Cold Spring Harbor School Store sells many different items.</h1>
     </section>
