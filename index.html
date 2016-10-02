@@ -30,23 +30,24 @@
         }
     </style>
     <script>
-             (function(){
-        var imgLen = document.getElementById('imgGallary');
-        var images = imgLen.getElementsByTagName('img');
-        var counter = 1;
+             var imgArray = [
+                  'http://placehold.it/300x200',
+                  'http://placehold.it/200x100',
+                  'http://placehold.it/400x300'],
+                  curIndex = 0;
+                  imgDuration = 3000;
 
-        if(counter <= images.length){
-            setInterval(function(){
-                images[0].src = images[counter].src;
-                console.log(images[counter].src);
-                counter++;
-
-                if(counter === images.length){
-                    counter = 1;
-                }
-            },4000);
-        }
-})();
+              function slideShow() {
+                  document.getElementById('imgGallary').className += "Container";
+                  setTimeout(function() {
+                      document.getElementById('imgGallary').src = imgArray[curIndex];
+                      document.getElementById('imgGallary').className = "";
+                  },1000);
+                  curIndex++;
+                  if (curIndex == imgArray.length) { curIndex = 0; }
+                  setTimeout(slideShow, imgDuration);
+              }
+              slideShow();
     </script>
   </head>
   <body>
