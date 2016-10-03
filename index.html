@@ -10,7 +10,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <script language="JavaScript"> 
+    <!--<script language="JavaScript"> 
         var i = 0; var path = new Array(); 
 
         // LIST OF IMAGES 
@@ -26,16 +26,10 @@
         setTimeout("swapImage()",5000); 
         } 
         window.onload=swapImage; 
-    </script> 
-    <style>
-      #imgGallary {
-          text-align: center;
-            margin-top: 0px;
-            height: 225px;
-            max-width: 100%;
-            border-radius:5px;
-            overflow:hidden;
-      }
+    </script> -->
+    <style type='text/css'>
+    .fadein { position:relative; width:500px; height:332px; }
+    .fadein img { position:absolute; left:0; top:0; }
       .popout{
             margin: auto;
             position: relative;
@@ -45,7 +39,33 @@
             height: 300px;
             overflow:hidden;
         }
+  </style>
+    <style>
+      #fadein {
+          text-align: center;
+            margin-top: 0px;
+            height: 225px;
+            max-width: 100%;
+            border-radius:5px;
+            overflow:hidden;
+      }
     </style>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <!-- Your Script -->
+  <script type='text/javascript'>
+  // When your page loads
+  $(function(){
+      // Hide all images except the first within your "fade In" <div>
+      $('.fadein img:gt(0)').hide();
+      // Set an interval to occur every 3 seconds (3000ms)
+      setInterval(function(){
+        // Fade out the first element and fade in the next and then move the elements
+        $('.fadein :first-child').fadeOut()
+           .next('img').fadeIn()
+           .end().appendTo('.fadein');}, 
+        3000);
+  });
+  </script>
   </head>
   <body>
     <section class="page-header">
@@ -66,7 +86,12 @@
         </ul>
         </div>
         
-        <img id="imgGallary" name="slide" src="images/cshlogo.png" />
+        <!--<img id="imgGallary" name="slide" src="images/cshlogo.png" />-->
+        <div class="fadein">
+          <img src="http://farm3.static.flickr.com/2610/4148988872_990b6da667.jpg">
+          <img src="http://farm3.static.flickr.com/2597/4121218611_040cd7b3f2.jpg">
+          <img src="http://farm3.static.flickr.com/2531/4121218751_ac8bf49d5d.jpg">
+        </div>
       </div>
       
     </section>
