@@ -9,10 +9,6 @@
 {
    text-align: center;
 }
-#content
-{
-   text-align: center;
-}
 .secondmain{
    background-color:black;
 }
@@ -30,23 +26,6 @@
   max-height:300px;
   overflow: visible;
 }
-#slideshow {
-    margin: 50px auto;
-    position: relative;
-    padding: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-    width:600px;
-    height:400px;
-    overflow:hidden;
-}
-
-#slideshow > div { 
-    position: absolute; 
-    top: 10px; 
-    left: 10px; 
-    right: 10px; 
-    bottom: 10px; 
-}
 #main-content {
    background-image:url(images/cshcrest.png);
     background-position:right;
@@ -59,7 +38,7 @@ tr, td, th
 }
 }
 #content {
-    position: relative;
+    position: absolute;
 }
 div.content a:hover {
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fc/Translucent_50_percent_white.png);
