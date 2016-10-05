@@ -45,8 +45,8 @@ background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fc/Transl
 }
 .ribbon {
     position: absolute;
-    top: -40px;
-    right: -40px;
+    top: 0px;
+    right: 0px;
 }
 
 #map {
