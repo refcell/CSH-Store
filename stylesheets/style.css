@@ -5,6 +5,10 @@
    position:relative;
    background-color:#A9A9A9;
 }
+#content
+{
+   text-align: center;
+}
 .secondmain{
    background-color:black;
 }
