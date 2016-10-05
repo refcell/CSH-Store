@@ -5,6 +5,10 @@
    position:relative;
    background-color:#A9A9A9;
 }
+.project-name
+{
+   text-align: center;
+}
 #content
 {
    text-align: center;
