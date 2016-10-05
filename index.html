@@ -60,11 +60,9 @@
         // Fade out the first element and fade in the next and then move the elements
         $('.fadein :first-child').fadeOut()
            .next('img').fadeIn()
-            if($.browser.webkit) {
                 img.css({
                         'text-align': 'center'
                     });
-            }
            .end().appendTo('.fadein');}, 
         3000);
   });
