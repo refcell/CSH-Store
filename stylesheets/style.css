@@ -13,6 +13,9 @@
    background-color:black;
 }
 .site-footer {
+   position: fixed;
+    bottom: 0;
+    width: 100%;
   margin: 0 !important;
     padding: 0 !important;
   border-top: solid 1px #eff0f1; 
