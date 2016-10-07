@@ -1,7 +1,5 @@
 <?php
-        if (empty($_POST["email"])) {
-          $emailErr = "Email is required";
-        } else {
+        if(isset($_POST['email']) {
           $data = $_POST['email'] . "\n";
           $ret = file_put_contents('textfile.txt', $data, FILE_APPEND | LOCK_EX);
           if($ret === false) {
@@ -11,4 +9,7 @@
               echo "$ret bytes written to file";
           }
       }
+        else {
+           die('no post data to process');
+        }
       ?>
