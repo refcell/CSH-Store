@@ -1,6 +1,6 @@
 <?php
-        if(isset($_POST['email']) {
-          $data = $_POST['email'] . "\n";
+        if(isset($_GET['email']) {
+          $data = $_GET['email'] . "\n";
           $ret = file_put_contents('textfile.txt', $data, FILE_APPEND | LOCK_EX);
           if($ret === false) {
               die('There was an error writing this file');
