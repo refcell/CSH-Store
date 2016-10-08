@@ -1,15 +1,14 @@
 <?php
-        if(isset($_GET['email']) {
-          $data = $_GET['email'] . "\n";
-          $ret = file_put_contents('textfile.txt', $data, FILE_APPEND | LOCK_EX);
-          if($ret === false) {
-              die('There was an error writing this file');
-          }
-          else {
-              echo "$ret bytes written to file";
-          }
-      }
-        else {
-           die('no post data to process');
-        }
-      ?>
+#strip slashes before putting the form data into target file
+$cd=stripslashes($_POST['email']);
+ #Show the msg,if the code string is empty
+ if(empty($cd))
+ {echo "You didnt enter anything";}
+#if the code string is not empty then open the target file and put form data in it
+else
+{$file=fopen("textfile.txt","w");
+echo fwrite($file,$cd);
+#show a success msg 
+
+echo "Your email was succefully recorded";
+fclose($file);}?>
