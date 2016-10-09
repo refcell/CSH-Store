@@ -15,8 +15,6 @@
 .site-footer {
     bottom: 0;
     width: 100%;
-  margin: 0 !important;
-    padding: 0 !important;
   border-top: solid 1px #eff0f1; 
   background-color: #062F4F;
 }
