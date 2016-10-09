@@ -31,7 +31,8 @@
    background-image:url(images/cshcrest.png);
     background-position:right;
     width:700px;
-    height:400px;
+    display:block;
+    overflow:auto;
 }
 tr, td, th
 {
