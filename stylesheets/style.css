@@ -9,12 +9,11 @@
 {
    text-align: center;
 }
-.secondmain{
+/*.secondmain{
    overflow-x: auto;
    overflow-y: visible;
-}
+}*/
 .site-footer {
-    bottom: -10;
     width: 100%;
   border-top: solid 1px #eff0f1; 
   background-color: #062F4F;
