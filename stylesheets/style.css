@@ -10,8 +10,8 @@
    text-align: center;
 }
 .secondmain{
-   background-color:black;
-   object-fit: contains;
+   overflow-x: auto;
+   overflow-y: visible;
 }
 .site-footer {
     bottom: 0;
