@@ -11,6 +11,7 @@
 }
 .secondmain{
    background-color:black;
+   object-fit: contains;
 }
 .site-footer {
     bottom: 0;
