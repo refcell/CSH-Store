@@ -63,7 +63,7 @@ a {
 }
 .main-content {
    background-image:url(images/cshcrest.png);
-    /*background-position:right;*/
+    background-position:right middle;
   text-align: center;
     width: 100%;
     display:block;
