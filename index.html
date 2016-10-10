@@ -1,8 +1,6 @@
-<!--<!DOCTYPE html>-->
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <!--<link rel="icon" href="cshcrest.png">-->
     <title>Cold Spring Harbor School Store</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
@@ -10,43 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <style type='text/css'>
-    .fadein { 
-            position:relative; 
-            /*text-align: center;*/
-            margin-top: 61px;
-            height: 239px;
-            max-width: 100%;
-            border-radius:5px;
-            overflow:hidden; 
-      }
-    .fadein img { position:absolute; width: 100%; border-radius: 0% 0% 0% 0%;}
-      .popout{
-            margin: auto;
-            position: relative;
-            object-fit:contain;
-            background-color: black;
-            width: 100%;
-            max-width: 100%;
-            height: 300px;
-            overflow:hidden;
-            -moz-box-shadow: 0 0 30px black;
-            -webkit-box-shadow: 0 0 30px black;
-            box-shadow: 0 0 30px black;
-        }
-  </style>
-  <script type='text/javascript'>$(function(){
-      // Hide all images except the first within your "fade In" <div>
-      $('.fadein img:gt(0)').hide();
-      // Set an interval to occur every 3 seconds (3000ms)
-      setInterval(function(){
-        // Fade out the first element and fade in the next and then move the elements
-        $('.fadein :first-child').fadeOut()
-           .next('img').fadeIn()
-           .end().appendTo('.fadein');}, 
-        3000);
-  });
-  </script>
+    <script src="slides.js"></script>
   </head>
   
   <body>
@@ -68,15 +30,10 @@
         </ul>
         </div>
         
-        <!--<img id="imgGallary" name="slide" src="images/cshlogo.png" />-->
         <div class="fadein">
           <img height="100%" src="images/home.jpg">
           <img height="100%" src="images/drawbags.jpg">
-          <!--<img height="100%" src="images/4click.jpg">
-          <img height="100%" src="images/4click.jpg">-->
           <img height="100%" src="images/027328.jpg">
-          <!--<img vertical-align="middle" height="225px" src="images/five.jpg">
-          <img vertical-align="middle" height="225px" src="images/six.jpg">-->
         </div>
       </div>
       
@@ -97,20 +54,18 @@
         will receive only the best designed school merchandise one can find. Every product 
         is carefully delivered to you. So please, let us put clothes on your back.</p>
       <br />
-      <!--<div class="cognito">
-      <script src="https://www.cognitoforms.com/CSHSchoolStore/SignUpForOurNewsletter"></script>
-      <script>Cognito.load("forms", { id: "1" });</script>
-      </div>-->
-      <div class="cognito">
-      <script src="https://services.cognitoforms.com/s/FkAqbeW8fEOk0Cd_yVBssQ"></script>
-      <script>Cognito.load("forms", { id: "1" });</script>
+      <div class="tricolumn">
+        <div class="columnone"></div>
+        <div class="columntwo"></div>
+        <div class="columnthree">
+          <script src="https://services.cognitoforms.com/s/FkAqbeW8fEOk0Cd_yVBssQ"></script>
+          <script>Cognito.load("forms", { id: "1" });</script>
+        </div>
       </div>
-      <!--<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd-coWv70upcWYSc4qbv3NkRdTMn9hw9N7olIXt3gibIq9l6w/viewform?embedded=true#start=embed" width="500" height="380" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>-->
       <br />
       </section>
+    
     <section class="secondmain-content" id="secondmain">
-      
-      
     </section>
     
     <section class="footer">
