@@ -38,7 +38,7 @@ a {
 }
 .project-name
 {
-   /*text-align: center;*/
+   text-align: center;
    position: relative;
    top: 20px;
    left: 20px;
