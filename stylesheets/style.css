@@ -8,11 +8,9 @@
 .project-name
 {
    text-align: center;
+   height: 100px;
 }
-/*.secondmain{
-   overflow-x: auto;
-   overflow-y: visible;
-}*/
+
 .site-footer {
     width: 100%;
    margin-bottom: 0;
