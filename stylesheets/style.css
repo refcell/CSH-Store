@@ -67,7 +67,7 @@ a {
   text-align: center;
     width: 100%;
     display:block;
-    overflow:auto;
+    /*overflow:auto;*/
 }
 tr, td, th
 {
