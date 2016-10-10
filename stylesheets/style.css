@@ -65,8 +65,8 @@ a {
    background-image:url(images/cshcrest.png);
     background-position:right;
   text-align: center;
-    width:700px;
-    display:block;
+    width: 100%;
+    /*display:block;*/
     overflow:auto;
 }
 tr, td, th
