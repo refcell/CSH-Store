@@ -61,7 +61,7 @@ a {
   max-height:300px;
   overflow: visible;
 }
-#main-content {
+.main-content {
    background-image:url(images/cshcrest.png);
     background-position:right;
   text-align: center;
