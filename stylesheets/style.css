@@ -80,7 +80,7 @@ div.content a:hover {
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fc/Translucent_50_percent_white.png);
 }
 .ribbon {
-    /*position: relative;*/
+    position: absolute;
     right: 20%;
     top: 20%;
 }
