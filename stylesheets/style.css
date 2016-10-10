@@ -70,10 +70,9 @@ tr, td, th
 {
   border: 0;
 }
-}
-#content {
+/*#content {
     position: absolute;
-}
+}*/
 div.content a:hover {
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fc/Translucent_50_percent_white.png);
 }
