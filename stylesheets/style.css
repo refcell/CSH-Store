@@ -37,9 +37,9 @@ a {
    background-color:#36454f;
 }
 
-.columnone{ float: left; width: 30%; height: 500px; }
-.columntwo{ display: inline-block; width: 30%; height: 500px;}
-.columnthree{ float: right; width: 40%; height: 500px;}
+.columnone{ float: left; width: 20%; height: 500px; }
+.columntwo{ display: inline-block; width: 20%; height: 500px;}
+.columnthree{ float: right; width: 60%; height: 500px;}
 
     .fadein { 
             position:relative; 
