@@ -23,13 +23,13 @@ html {
   margin-top:0;
 }
 
-a {
+/*a {
   color: #1e6bb8;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; 
     color: lighten(#36454f, 60%);
-}
+}*/
 
 #tabs {
    float:left;
