@@ -109,8 +109,8 @@ background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fc/Transl
 }
 .ribbon {
     position: absolute;
-    right: 20%;
-    top: 20%;
+    right: 10%;
+    top: 10%;
 }
 
 #map {
