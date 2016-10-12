@@ -27,7 +27,9 @@ a {
   color: #1e6bb8;
   text-decoration: none; }
   a:hover {
-    text-decoration: underline; }
+    text-decoration: underline; 
+    color: lighten(#36454f, 60%);
+}
 
 #tabs {
    float:left;
@@ -154,10 +156,10 @@ ul.tab li a {
 }
 
 /* Change background color of links on hover */
-ul.tab li a:hover {background-color: lighten(#36454f, 60%);}
+ul.tab li a:hover {color: lighten(#36454f, 60%);}
 
 /* Create an active/current tablink class */
-ul.tab li a:focus, .active {background-color: lighten(#36454f, 60%);}
+ul.tab li a:focus, .active {color: lighten(#36454f, 60%);}
 
 .input[type=text] {
     width: 130px;
