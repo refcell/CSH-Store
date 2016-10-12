@@ -156,10 +156,10 @@ ul.tab li a {
 }
 
 /* Change background color of links on hover */
-ul.tab li a:hover {background-color: lighten(#36454f, 60%);*/}
+ul.tab li a:hover {background: lighten(#36454f, 60%);}
 
 /* Create an active/current tablink class */
-ul.tab li a:focus, .active {background-color: lighten(#36454f, 60%);}
+ul.tab li a:focus, .active {background: lighten(#36454f, 60%);}
 
 .input[type=text] {
     width: 130px;
