@@ -110,9 +110,9 @@ div.content a img:hover {
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fc/Translucent_50_percent_white.png);
 }
 .ribbon {
-    position: absolute;
-    right: 10%;
-    top: 10%;
+    position: relative;
+    right: 20px;
+    top: 20px;
 }
 
 #map {
