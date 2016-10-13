@@ -121,7 +121,7 @@ background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fc/Transl
     height: 40px;
 }*/
 .ribbon {
-    position: absolute;
+    position: relative;
 }
 
 #map {
