@@ -105,8 +105,8 @@ tr, td, th
 }
 #content {
     position: absolute;
-    left: 10%;
-    top: 20px;
+    right: 10%;
+    top: 10%;
     width: 20px;
     height: 40px;
 }
