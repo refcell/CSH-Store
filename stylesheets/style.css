@@ -106,14 +106,14 @@ tr, td, th
 #content {
     position: absolute;
     width: 20px;
-    height: 20px;
+    height: 40px;
 }
 div.content a img:hover {
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fc/Translucent_50_percent_white.png);
 }
 .ribbon {
     position: relative;
-    left: 100px;
+    right: 100px;
     top: 20px;
 }
 
