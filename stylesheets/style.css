@@ -109,17 +109,17 @@ background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fc/Transl
 }
 
 #content {
-    position: absolute;
+    position: relative;
     right: 10%;
     top: 10%;
     width: 40px;
     height: 40px;
 }
-.cart {
+/*.cart {
  position: relative; 
   width: 40px;
     height: 40px;
-}
+}*/
 .ribbon {
     position: relative;
 }
