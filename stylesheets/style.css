@@ -111,7 +111,7 @@ background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fc/Transl
 }
 .ribbon {
     position: relative;
-    right: 50px;
+    left: 100px;
     top: 20px;
 }
 
