@@ -96,7 +96,6 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center bottom; 
-    background-size: cover; 
     text-align: center;
     width: 100%;
     display:block;
@@ -128,7 +127,7 @@ background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fc/Transl
 }
 
 #map {
-        width: 100%;
+        width: 75%;
         height: 400px;
      }
      
