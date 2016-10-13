@@ -128,10 +128,11 @@ background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fc/Transl
 
 #maps2
 {
-  align-items: center;
+  margin: auto;
+  width: 75%;
 }
 #map {
-        width: 75%;
+        width: 100%;
         height: 400px;
      }
      
