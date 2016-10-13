@@ -92,9 +92,11 @@ html {
   overflow: visible;
 }
 .main-content {
-   background-image:url(images/cshcrest.png);
-    background-position:right middle;
-  text-align: center;
+    background-image:url('images/cshcrest.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    text-align: center;
     width: 100%;
     display:block;
     /*overflow:auto;*/
@@ -104,7 +106,7 @@ tr, td, th
   border: 0;
 }
 
-div.content a img:hover {
+div.content a:hover {
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fc/Translucent_50_percent_white.png);
 }
 
