@@ -138,6 +138,7 @@ ul.tab {
     float:left;
     list-style-type: none;
     margin: 0;
+    top: 25px;
     padding: 0;
     /*border: 1px solid #ccc;*/
     background-color: transparent;
