@@ -109,6 +109,7 @@ background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fc/Transl
 
 #content {
     height: 50px;
+  background-image: url('images/doodles.jpg');
 }
 /*.cart {
  position: relative; 
