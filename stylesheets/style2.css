@@ -59,6 +59,10 @@ html {
             -webkit-box-shadow: 0 0 30px black;
             box-shadow: 0 0 30px black;
         }
+        .bottom {
+            height: 100px;
+            background-color:#36454f;
+        }
 
 .project-name
 {
