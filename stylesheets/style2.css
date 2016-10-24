@@ -66,9 +66,10 @@ html {
 
 .project-name
 {
-   text-align: right;
+   text-align: left;
    position: relative;
    top: 10px;
+   width: 250px;
    height: 50px;
 }
 
