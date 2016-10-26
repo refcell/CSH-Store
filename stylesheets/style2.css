@@ -82,6 +82,7 @@ html {
 .page-header {
   /*text-align: center;*/
    /*background-color:#062F4F;*/
+  background-image: url("images/doodles.jpg");
    margin: 0;
    padding: 0;
   /*background-color: #159957;
@@ -109,7 +110,7 @@ background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fc/Transl
 }*/
 
 #content {
-    height: 50px;
+    height: 250px;
     background-image: url("images/doodles.jpg");
 }
 /*.cart {
