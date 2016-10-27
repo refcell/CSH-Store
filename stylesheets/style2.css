@@ -106,6 +106,7 @@ tr, td, th
 }
 .cshheaderdiv {
   vertical-align: middle;
+  display: inline-block;
 }
 .cshheading {
   font-size: xx-large;
