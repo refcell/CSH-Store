@@ -101,7 +101,7 @@ tr, td, th
 
 #content {
     height: 250px;
-    background-image: url("images/doodles.jpg");
+    vertical-align: center;
 }
 /*.cart {
  position: relative; 
