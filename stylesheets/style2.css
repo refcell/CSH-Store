@@ -101,13 +101,13 @@ tr, td, th
 
 #content {
     height: 150px;
-    display: table-cell;
+    display: flex;
+    justify-content: center;
     max-width: 100%;
     text-align: center;
 }
 .cshheaderdiv {
-  vertical-align: middle;
-  display: inline-block;
+  align-self: center;
 }
 .cshheading {
   font-size: xx-large;
