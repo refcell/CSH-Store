@@ -76,6 +76,7 @@ html {
 .site-footer {
     width: 100%;
    margin-bottom: 0;
+  background-color:#36454f;
   border-top: solid 1px #eff0f1; 
 }
 .page-header {
