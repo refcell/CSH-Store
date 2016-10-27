@@ -100,8 +100,8 @@ tr, td, th
 }
 
 #content {
-    height: 250px;
-    display: block;
+    height: 150px;
+    display: table-cell;
     max-width: 100%;
 }
 .cshheaderdiv {
