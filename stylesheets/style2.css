@@ -101,7 +101,7 @@ tr, td, th
 
 #content {
     height: 250px;
-    display: inline-block;
+    display: block;
     max-width: 100%;
 }
 .cshheading {
