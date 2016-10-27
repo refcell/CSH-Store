@@ -103,6 +103,7 @@ tr, td, th
     height: 150px;
     display: table-cell;
     max-width: 100%;
+    text-align: center;
 }
 .cshheaderdiv {
   vertical-align: middle;
