@@ -101,12 +101,13 @@ tr, td, th
 
 #content {
     height: 250px;
+  display: inline-block;
 }
 .cshheading {
   vertical-align: middle;
   font-size: xx-large;
-  text-align:center; 
-  font-family:verdana; 
+  text-align:center;
+  font-family:verdana;
   color:#000073;
 }
 /*.cart {
