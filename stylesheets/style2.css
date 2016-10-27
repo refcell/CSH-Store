@@ -101,7 +101,9 @@ tr, td, th
 
 #content {
     height: 250px;
-    vertical-align: middle;
+}
+.cshheading {
+  vertical-align: middle;
 }
 /*.cart {
  position: relative; 
