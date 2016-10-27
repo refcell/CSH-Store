@@ -104,8 +104,10 @@ tr, td, th
     display: block;
     max-width: 100%;
 }
-.cshheading {
+.cshheaderdiv {
   vertical-align: middle;
+}
+.cshheading {
   font-size: xx-large;
   text-align:center;
   font-family:verdana;
