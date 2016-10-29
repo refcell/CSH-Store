@@ -112,8 +112,9 @@ tr, td, th
   align-self: center;
 }
 .cshheading {
-  font-size: 40px;
+  font-size: 60px;
   text-align:center;
+  font-weight: bold;
   font-family:verdana;
   color:#000073;
 }
