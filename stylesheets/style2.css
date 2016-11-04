@@ -72,6 +72,9 @@ html {
    width: 250px;
    height: 50px;
 }
+.frontcolumn {
+ max-width: 150px; 
+}
 .topproductsdiv {
   height: 100px; 
 }
