@@ -72,7 +72,16 @@ html {
    width: 250px;
    height: 50px;
 }
-
+.topproductsdiv {
+  height: 100px; 
+}
+.topproducts {
+  font-size: 60px;
+  text-align:center;
+  font-weight: bold;
+  font-family:verdana;
+  color:#000073;
+}
 .site-footer {
     width: 100%;
    margin-bottom: 0;
