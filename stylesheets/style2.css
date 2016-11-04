@@ -76,11 +76,11 @@ html {
   height: 100px; 
 }
 .topproducts {
-  font-size: 60px;
+  font-size: 20px;
   text-align:center;
   font-weight: bold;
   font-family:verdana;
-  color:#000073;
+  /*color:#000073;*/
 }
 .site-footer {
     width: 100%;
