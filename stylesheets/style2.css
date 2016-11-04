@@ -39,7 +39,7 @@ html {
 
     .fadein { 
             position:relative; 
-            margin-top: 60px;
+            /*margin-top: 60px;*/
             height: 200px;
             max-width: 100%;
             border-radius:5px;
