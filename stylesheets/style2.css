@@ -94,7 +94,7 @@ input[type=text]:focus {
 .columnthree{ float: right; width: 33%; height: 500px;}
 
 .fadein { 
-  position:relative; 
+  position: absolute;
   /*margin-top: 60px;*/
   height: 400px;
   width: 100%;
@@ -130,6 +130,7 @@ input[type=text]:focus {
   width: 200px;
   height: 60px;
   left: 50%;
+  position: absolute;
 }
 .images {
   position: relative;
