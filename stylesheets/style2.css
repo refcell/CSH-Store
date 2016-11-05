@@ -96,7 +96,7 @@ input[type=text]:focus {
 .fadein { 
   position: absolute;
   /*margin-top: 60px;*/
-  height: 400px;
+  height: 100%;
   width: 100%;
   border-radius:5px;
   overflow:hidden; 
@@ -133,6 +133,7 @@ input[type=text]:focus {
   position: absolute;
 }
 .images {
+  height: 400px;
   position: relative;
 }
 .site-footer {
