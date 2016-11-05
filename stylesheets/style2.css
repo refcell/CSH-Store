@@ -28,7 +28,7 @@ html {
    float:left;
    width:100%;
    overflow:hidden;
-   position:relative;
+   position:absolute;
    height: 100%;
    background-color:#36454f;
 }
