@@ -41,7 +41,7 @@ html {
             position:relative; 
             /*margin-top: 60px;*/
             height: 200px;
-            max-width: 100%;
+            width: 100%;
             border-radius:5px;
             overflow:hidden; 
       }
