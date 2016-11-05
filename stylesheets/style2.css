@@ -40,7 +40,7 @@ html {
     .fadein { 
             position:relative; 
             /*margin-top: 60px;*/
-            height: 200px;
+            height: 400px;
             width: 100%;
             border-radius:5px;
             overflow:hidden; 
