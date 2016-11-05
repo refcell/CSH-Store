@@ -29,40 +29,90 @@ html {
    width:100%;
    overflow:hidden;
    position:relative;
-  height: 60px;
+   height: 60px;
    background-color:#36454f;
 }
+ul.tab {
+    clear:left;
+    float:left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid #ccc;*/
+    background-color: transparent;
+    position:relative;
+    left:50%;
+    text-align:center;
+}
+
+/* Float the list items side by side */
+ul.tab li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 22px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+  background-color: #d3d3d3;
+  background: lighten(#36454f, 60%);}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+  background-color: #d3d3d3;
+  background: lighten(#36454f, 60%);}
+
+.input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
+
 
 .columnone{ float: left; width: 33%; height: 500px; }
 .columntwo{ display: inline-block; width: 33%; height: 500px;}
 .columnthree{ float: right; width: 33%; height: 500px;}
 
-    .fadein { 
-            position:relative; 
-            /*margin-top: 60px;*/
-            height: 400px;
-            width: 100%;
-            border-radius:5px;
-            overflow:hidden; 
-      }
-    .fadein img { position:absolute; width: 100%; border-radius: 0% 0% 0% 0%;}*/
-      .popout{
-            margin: auto;
-            position: relative;
-            object-fit:contain;
-            background-color: black;
-            width: 100%;
-            max-width: 100%;
-            height: 260px;
-            overflow:hidden;
-            /*-moz-box-shadow: 0 0 30px black;
-            -webkit-box-shadow: 0 0 30px black;
-            box-shadow: 0 0 30px black;*/
-        }
-        /*.bottom {
-            height: 100px;
-            background-color:#36454f;
-        }*/
+.fadein { 
+  position:relative; 
+  /*margin-top: 60px;*/
+  height: 400px;
+  width: 100%;
+  border-radius:5px;
+  overflow:hidden; 
+}
+.fadein img { position:absolute; width: 100%; border-radius: 0% 0% 0% 0%;}*/
+      
+.popout{
+  margin: auto;
+  position: relative;
+  object-fit:contain;
+  background-color: black;
+  width: 100%;
+  max-width: 100%;
+  height: 260px;
+  overflow:hidden;
+}
 
 .project-name
 {
@@ -76,16 +126,13 @@ html {
   max-width: 250px;
   max-height: 200px;
 }
-/*.topproductsdiv {
-  height: 100px; 
-}
 .topproducts {
-  font-size: 20px;
-  text-align:center;
-  font-weight: bold;
-  font-family:verdana;
-  color:#000073;
-}*/
+  width: 200px;
+  height: 60px;
+}
+.images {
+  position: relative;
+}
 .site-footer {
     width: 100%;
    margin-bottom: 0;
@@ -151,66 +198,3 @@ tr, td, th
         height: 400px;
      }
      
-ul.tab {
-    clear:left;
-    float:left;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    /*border: 1px solid #ccc;*/
-    background-color: transparent;
-    position:relative;
-    left:50%;
-    text-align:center;
-}
-
-/* Float the list items side by side */
-ul.tab li {
-   display:block;
-   float:left;
-   list-style:none;
-   margin:0;
-   padding:0;
-   position:relative;
-   right:50%;
-}
-
-/* Style the links inside the list items */
-ul.tab li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 22px;
-}
-
-/* Change background color of links on hover */
-ul.tab li a:hover {
-  background-color: #d3d3d3;
-  background: lighten(#36454f, 60%);}
-
-/* Create an active/current tablink class */
-ul.tab li a:focus, .active {
-  background-color: #d3d3d3;
-  background: lighten(#36454f, 60%);}
-
-.input[type=text] {
-    width: 130px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
-
-/* When the input field gets focus, change its width to 100% */
-input[type=text]:focus {
-    width: 100%;
-}
-
-/* Style the tab content 
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-}*/
