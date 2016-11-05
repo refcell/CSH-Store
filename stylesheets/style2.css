@@ -128,8 +128,9 @@ input[type=text]:focus {
 }
 .topproducts {
   width: 200px;
+  background: #000;
   height: 60px;
-  left: 40%;
+  left: 37%;
   position: absolute;
   z-index: 5;
 }
