@@ -76,7 +76,7 @@ html {
   max-width: 250px;
   max-height: 200px;
 }
-.topproductsdiv {
+/*.topproductsdiv {
   height: 100px; 
 }
 .topproducts {
@@ -84,8 +84,8 @@ html {
   text-align:center;
   font-weight: bold;
   font-family:verdana;
-  /*color:#000073;*/
-}
+  color:#000073;
+}*/
 .site-footer {
     width: 100%;
    margin-bottom: 0;
