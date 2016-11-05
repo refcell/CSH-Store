@@ -99,7 +99,8 @@ input[type=text]:focus {
   height: 100%;
   width: 100%;
   border-radius:5px;
-  overflow:hidden; 
+  /*overflow:hidden;*/
+  z-index: 5;
 }
 .fadein img { position:absolute; width: 100%; border-radius: 0% 0% 0% 0%;}*/
       
