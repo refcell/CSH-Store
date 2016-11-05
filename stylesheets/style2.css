@@ -129,6 +129,7 @@ input[type=text]:focus {
 .topproducts {
   width: 200px;
   height: 60px;
+  left: 50%;
 }
 .images {
   position: relative;
