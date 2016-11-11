@@ -88,6 +88,8 @@ input[type=text]:focus {
     width: 100%;
 }
 
+.productcolumnone{ float: left; width: 50%; height: 200px; }
+.productcolumntwo{ float: right; width: 50%; height: 200px;}
 
 .columnone{ float: left; width: 33%; height: 500px; }
 .columntwo{ display: inline-block; width: 33%; height: 500px;}
