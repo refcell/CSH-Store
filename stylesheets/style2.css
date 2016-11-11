@@ -90,7 +90,7 @@ input[type=text]:focus {
 }
 
 .producttitle {
-  height: 200px;
+  height: 150px;
 }
 .productcolumnone{ float: left; width: 45%; height: 100%; }
 .productcolumntwo{ float: right; width: 55%; height: 100%;}
@@ -144,7 +144,6 @@ input[type=text]:focus {
   /*margin-top: 60px;*/
   height: 250px;
   width: 600px;
-  position: absolute;
   display: flex;
   justify-content: center;
 }
