@@ -4,11 +4,13 @@
     <title>Cold Spring Harbor School Store</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/style2.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/departments.css">
     <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <!--<script src="slides.js"></script>-->
+    <script src="js/departments.js"></script>
   </head>
   
   <body>
@@ -43,6 +45,15 @@
       <br />
       <div class="producttitle">
         <div class="productcolumnone">
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Departments</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="departments/apparel.html">Apparel</a>
+              <a href="departments/supplies.html">Supplies</a>
+              <a href="departments/accessories.html">Accessories</a>
+              <a href="departments/miscellaneous.html">Miscellaneous</a>
+            </div>
+          </div>
         </div>
         <div class="productcolumntwo">
           <h1 style="text-align: left; font-size:30px;">Top Products</h1>
