@@ -17,6 +17,7 @@
 .dropdown {
     /*position: relative;*/
     float: left;
+    vertical-align: middle;
     display: inline-block;
 }
 
