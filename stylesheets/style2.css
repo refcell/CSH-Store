@@ -141,7 +141,7 @@ input[type=text]:focus {
   /*margin-top: 60px;*/
   height: 250px;
   width: 600px;
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: center;
 }
