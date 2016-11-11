@@ -138,8 +138,9 @@ input[type=text]:focus {
   z-index: 5;
 }
 .images {
-  margin-top: 60px;
-  height: 400px;
+  /*margin-top: 60px;*/
+  height: 250px;
+  width: 600px;
   position: relative;
   display: flex;
   justify-content: center;
