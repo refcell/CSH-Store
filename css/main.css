@@ -30,7 +30,7 @@ ul.tabs {
     padding: 0;   
 }
 ul.tabs li {
-   display:block;
+   display:inline;
    float:left;
    list-style:none;
    margin:0;
