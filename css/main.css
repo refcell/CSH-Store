@@ -21,7 +21,6 @@ body {
    float:left;
    height: 75px;
    width:100%;
-   overflow:hidden;
    position:relative;
    background-color:#36454f;
 }
