@@ -35,3 +35,11 @@ ul.tabs {
     width: 100%; 
     border-radius: 0% 0% 0% 0%;
 }
+.footer {
+    height: 125px;  
+    background-color:#36454f;
+}
+.footer p {
+    color: white;
+    bottom: 0px;
+}
