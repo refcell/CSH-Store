@@ -12,6 +12,13 @@
     top: 50%;
     bottom: 50%;
 }
+.tabs {
+   float:left;
+   width:100%;
+   overflow:hidden;
+   position:relative;
+   background-color:#36454f;
+}
 ul.tabs {
     list-style-type: none;
     margin: 0;
