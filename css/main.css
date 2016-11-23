@@ -29,6 +29,15 @@ ul.tabs {
     margin: 0;
     padding: 0;   
 }
+ul.tabs li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
 .fadein { 
     position:relative; 
     height: 200px;
