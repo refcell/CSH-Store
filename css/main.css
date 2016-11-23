@@ -5,12 +5,12 @@
 }
 .title img {
     position: absolute;
-    height: 50px;
-    width:125px;
+    height: 75px;
+    width:200px;
     left: 50%;
     right: 50%;
-    top: 50%;
-    bottom: 50%;
+    top: 75px;
+    bottom: 75px;
 }
 .tabs {
    float:left;
