@@ -9,11 +9,18 @@ body {
 .connect {
     position: absolute;
     height: 25px;
+    width: 100%;
     top: 0%;
     left: 0%;
 }
 .connect a {
     display:inline;
+    height: 25px;
+    width: 25px;
+}
+.connect a div {
+    height: 25px;
+    width: 25px;
 }
 .title {
     position: relative;
