@@ -1,3 +1,11 @@
+html {
+    border: 0px;
+    margin: 0px;
+}
+body {
+    border: 0px;
+    margin: 0px;
+}
 .title {
     position: relative;
     height: 125px;
