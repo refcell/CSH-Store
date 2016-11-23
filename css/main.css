@@ -1,5 +1,5 @@
 .title {
-    position: relative;
+    position: absolute;
     max-height: 100px;
     width: 100%;
 }
