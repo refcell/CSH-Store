@@ -44,10 +44,12 @@ ul.tabs {
     border-radius: 0% 0% 0% 0%;
 }
 .footer {
+    position: relative;
+    bottom: 0%;
     height: 125px;  
     background-color:#36454f;
 }
 .footer p {
     color: white;
-    bottom: 0px;
+    bottom: 0%;
 }
