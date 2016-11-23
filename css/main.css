@@ -8,6 +8,7 @@ body {
 }
 .connect {
     position: absolute;
+    height: 25px;
     top: 0%;
     left: 0%;
 }
