@@ -43,7 +43,7 @@ ul.tabs {
     border-radius: 0% 0% 0% 0%;
 }
 .footer {
-    position: relative;
+    position: absolute;
     bottom: 0%;
     height: 125px;  
     background-color:#36454f;
