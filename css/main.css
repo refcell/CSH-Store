@@ -1,5 +1,6 @@
 #title {
-    background-image: url("img/logo.png") no-repeat center center;
+    background: url('img/logo.png');
+    background-image: url('img/logo.png');
     height: 200px;
     width: 200px;
 }
