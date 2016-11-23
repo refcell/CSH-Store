@@ -3,6 +3,13 @@
     height: 200px;
     width: 200px;
 }
+#title.img {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+}
 ul.tabs {
     list-style-type: none;
     margin: 0;
