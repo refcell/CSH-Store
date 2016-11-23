@@ -4,7 +4,20 @@
     width: 200px;
 }
 ul.tabs {
- list-style-type: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;   
+}
+.fadein { 
+    position:relative; 
+    margin-top: 61px;
+    height: 439px;
+    max-width: 100%;
+    border-radius:5px;
+    overflow:hidden; 
+}
+.fadein img { 
+    position:absolute; 
+    width: 100%; 
+    border-radius: 0% 0% 0% 0%;
 }
