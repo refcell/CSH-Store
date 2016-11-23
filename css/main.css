@@ -1,5 +1,10 @@
-.title {
+#title {
     background: url(logo.png) no-repeat center center;
     height: 200px;
     width: 200px;
+}
+ul.tab {
+ list-style-type: none;
+    margin: 0;
+    padding: 0;   
 }
