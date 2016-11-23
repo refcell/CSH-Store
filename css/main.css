@@ -6,13 +6,13 @@
 }
 .title img {
     /*position: absolute;
-    height: 75px;
-    width:200px;
     left: 50%;
     right: 50%;
     top: 75px;
     bottom: 75px;*/
     vertical-align: middle;
+    height: 75px;
+    width:200px;
 }
 .tabs {
    float:left;
