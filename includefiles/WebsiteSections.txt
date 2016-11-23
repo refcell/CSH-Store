@@ -1,0 +1,1 @@
+This is where all universal website sections shouold be stored.
