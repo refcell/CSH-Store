@@ -45,10 +45,12 @@ ul.tabs {
 .footer {
     position: absolute;
     bottom: 0%;
-    height: 125px;  
+    height: 125px;
+    width: 100%;
     background-color:#36454f;
 }
 .footer p {
+    position: absolute;
     color: white;
     bottom: 0%;
 }
