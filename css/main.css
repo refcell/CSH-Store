@@ -1,10 +1,10 @@
 #title {
-    background: url('img/logo.png');
-    height: 200px;
-    width: 200px;
+    height:100px;
 }
 #title.img {
     position: absolute;
+    height: 50px;
+    width:125px;
     left: 50%;
     right: 50%;
     top: 50%;
