@@ -13,12 +13,19 @@ body {
     top: 0%;
     left: 0%;
 }
-.connect a {
+ul.connect {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+}
+.connect li {
     display:inline;
+    float:left;
+    list-style:none;
     height: 25px;
     width: 25px;
 }
-.connect a div {
+.connect li div {
     height: 25px;
     width: 25px;
 }
