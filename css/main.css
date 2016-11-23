@@ -6,6 +6,14 @@ body {
     border: 0px;
     margin: 0px;
 }
+.connect {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.connect a {
+    display:inline;
+}
 .title {
     position: relative;
     height: 125px;
