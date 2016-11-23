@@ -1,7 +1,7 @@
-#title {
+.title {
     height:100px;
 }
-#title.img {
+.title img {
     position: absolute;
     height: 50px;
     width:125px;
