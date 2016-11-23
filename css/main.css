@@ -2,15 +2,17 @@
     position: relative;
     height: 150px;
     width: 100%;
+    text-align:center;
 }
 .title img {
-    position: absolute;
+    /*position: absolute;
     height: 75px;
     width:200px;
     left: 50%;
     right: 50%;
     top: 75px;
-    bottom: 75px;
+    bottom: 75px;*/
+    vertical-align: middle;
 }
 .tabs {
    float:left;
