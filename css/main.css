@@ -19,7 +19,7 @@ body {
 }
 .tabs {
    float:left;
-   height: 75px;
+   height: 50px;
    width:100%;
    position:relative;
    background-color:#36454f;
