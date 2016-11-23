@@ -1,5 +1,7 @@
 .title {
-    height:100px;
+    position: relative;
+    max-height: 100px;
+    width: 100%;
 }
 .title img {
     position: absolute;
