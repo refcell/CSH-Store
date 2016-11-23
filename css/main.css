@@ -16,7 +16,7 @@ body {
 ul.connect {
     list-style-type: none;
     margin: 0;
-    padding: 0; 
+    padding: 10px; 
 }
 .connect li {
     display:inline;
