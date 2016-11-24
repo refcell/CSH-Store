@@ -56,9 +56,10 @@ ul.about {
 }
 .topproducts {
     position: relative;
-    height: 25px;
+    height: 100px;
     overflow-x: scroll;
-    width: 1000px;
+    max-width: 75%;
+    min-width: 500px;
 }
 ul.topproducts {
     list-style-type: none;
@@ -67,9 +68,9 @@ ul.topproducts {
 }
 .topproducts li {
     display:inline;
-    float:right;
+    float:left;
     list-style:none;
-    height: 25px;
+    height: 100px;
     width: 75px;
     padding: 10px;
 }
