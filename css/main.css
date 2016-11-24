@@ -59,6 +59,7 @@ ul.about {
 }
 .topproducts {
     position: relative;
+    text-align: center;
     height: 100px;
     overflow-x: scroll;
     max-width: 75%;
