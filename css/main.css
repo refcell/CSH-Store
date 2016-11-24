@@ -47,7 +47,7 @@ ul.about {
     float:right;
     list-style:none;
     height: 25px;
-    width: 100px;
+    /*width: 100px;*/
     padding: 10px;
 }
 .about li p {
