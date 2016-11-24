@@ -62,6 +62,7 @@ ul.about {
     text-align: center;
     height: 100px;
     overflow-x: scroll;
+    overflow-y: none;
     max-width: 75%;
     min-width: 500px;
 }
@@ -75,7 +76,7 @@ ul.topproducts {
     float:left;
     list-style:none;
     height: 100px;
-    width: 75px;
+    width: 150px;
     padding: 10px;
 }
 .title {
