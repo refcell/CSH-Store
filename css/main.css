@@ -33,7 +33,7 @@ ul.connect {
 .about {
     position: absolute;
     height: 25px;
-    width: 100%;
+    /*width: 100%;*/
     top: 0%;
     right: 0%;
 }
@@ -44,7 +44,7 @@ ul.about {
 }
 .about li {
     display:inline;
-    float:left;
+    float:right;
     list-style:none;
     height: 25px;
     width: 100px;
