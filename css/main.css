@@ -50,6 +50,10 @@ ul.about {
     width: 100px;
     padding: 10px;
 }
+.about li p {
+    position: absolute;
+    top: 0%;
+}
 .title {
     position: relative;
     height: 125px;
