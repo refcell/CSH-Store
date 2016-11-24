@@ -61,8 +61,8 @@ ul.about {
     position: relative;
     text-align: center;
     height: 100px;
-    overflow-x: scroll;
-    overflow-y: none;
+    /*overflow-x: scroll;*/
+    overflow-y: scroll;
     max-width: 75%;
     min-width: 500px;
 }
