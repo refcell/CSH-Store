@@ -54,6 +54,25 @@ ul.about {
     position: absolute;
     top: 0%;
 }
+.topproducts {
+    position: relative;
+    height: 25px;
+    overflow-x: scroll;
+    width: 1000px;
+}
+ul.topproducts {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px; 
+}
+.topproducts li {
+    display:inline;
+    float:right;
+    list-style:none;
+    height: 25px;
+    width: 75px;
+    padding: 10px;
+}
 .title {
     position: relative;
     height: 125px;
