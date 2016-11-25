@@ -68,6 +68,7 @@ ul.about {
 }
 ul.topproducts {
     list-style-type: none;
+    white-space:nowrap;
     margin: 0;
     padding: 10px; 
 }
