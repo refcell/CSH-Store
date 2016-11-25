@@ -1,10 +1,12 @@
 html {
     border: 0px;
     margin: 0px;
+    white-space:nowrap;
 }
 body {
     border: 0px;
     margin: 0px;
+    white-space:nowrap;
 }
 .connect {
     position: absolute;
