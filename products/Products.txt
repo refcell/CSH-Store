@@ -1,0 +1,1 @@
+This is where all products (as included files) should be stored.
