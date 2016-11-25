@@ -23,6 +23,7 @@ ul.connect {
 .connect li {
     display:inline;
     list-style:none;
+    float:left;
     height: 25px;
     width: 25px;
     padding: 10px;
@@ -75,7 +76,6 @@ ul.topproducts {
 }
 .topproducts li {
     display:inline;
-    float:left;
     list-style:none;
     height: 100px;
     width: 150px;
