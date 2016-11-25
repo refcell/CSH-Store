@@ -11,36 +11,16 @@
   </head>
   <body>
     <html-include src="includefiles/heading.html"></html-include>
-    <br />
-      <h1 style="font-size:25px;">Contact Information</h1>
+<br />
+      <h1 style="font-size:25px;">About Us</h1>
+      <p>The Cold Spring Harbor School Store is proudly managed and run by the FBLA - Future Business Leaders of America - club.</p>
+      <p>Our Store is located in between the Senior Commons and Cafeteria A.</p>
+      <p>Come look at our products in person! They are in the glass display</p>
       <br />
-      <div id="maps2">
-      <div id="map"></div>
-        </div>
-    <script>
-      function initMap() {
-        var mapDiv = document.getElementById('map');
-        var mypos = {lat: 40.860, lng: -73.447};
-        var map = new google.maps.Map(mapDiv, {
-            center: mypos,
-            zoom: 10
-        });
-        var marker = new google.maps.Marker({
-          position: {lat: 40.867, lng:  -73.456},
-          map: map,
-          title: 'Hello World!'
-        });
-      }
-    </script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoqx8KIH9wpPCIc-bSXOJ2GgromlcH8J0&callback=initMap">
-    </script>
       <br />
-      <h2>Give us feedback and Let us help you!</h2>
-      <p>Instagram: cshschoolstore</p>
-      <p>Twitter: @cshschoolstore</p>
-      <p>Facebook: @cshschoolstore</p>
-      <p>Email: cshschoolstore@gmail.com </p>
+      <h2>Cold Spring Harbor High School</h2>
+      <br />
+      <img src="images/csh.jpg" width="600px" height="400px" class="csh">
       <br />
       <br />
     <html-include src="includefiles/topproducts.html"></html-include>
