@@ -4,6 +4,7 @@ html, body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+    text-align: center;
     border: 0px;
 }
 .connect {
