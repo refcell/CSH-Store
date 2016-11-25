@@ -1,10 +1,11 @@
 html, body {
+    display:block;
+    overflow:auto;
     width: 100%;
     height: auto;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
-    text-align: center;
     border: 0px;
 }
 .connect {
