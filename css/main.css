@@ -137,3 +137,11 @@ ul.tabs li {
     color: white;
     bottom: 0%;
 }
+#maps2 {
+    margin: auto;
+    width: 75%;
+}
+#map {
+    width: 100%;
+    height: 400px;
+}
