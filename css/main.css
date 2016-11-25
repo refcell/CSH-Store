@@ -1,16 +1,10 @@
-html {
-    border: 0px;
+html, body {
+    width: 100%;
+    height: auto;
     margin: 0px;
-    white-space:nowrap;
-}
-body {
+    padding: 0px;
+    overflow-x: hidden; 
     border: 0px;
-    margin: 0px;
-    white-space:nowrap;
-}
-ul.nav-menu, div.nav-menu > ul {
-   margin: 0;
-   padding: 0 40px 0 0;
 }
 .connect {
     position: absolute;
