@@ -8,6 +8,10 @@ body {
     margin: 0px;
     white-space:nowrap;
 }
+ul.nav-menu, div.nav-menu > ul {
+   margin: 0;
+   padding: 0 40px 0 0;
+}
 .connect {
     position: absolute;
     height: 25px;
