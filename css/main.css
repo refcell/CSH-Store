@@ -92,6 +92,7 @@ ul.topproducts {
 }
 ul.departments {
     display: flex;
+    list-style:none;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
@@ -99,6 +100,7 @@ ul.departments {
 }
 .departments li {
     width: 25%;
+    list-style:none;
     height: 250px;
 }
 .title {
