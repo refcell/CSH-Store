@@ -63,10 +63,10 @@ ul.about {
     height: 100px;
     width: 100px;
 }
+.wrapper {
+    text-align: center;
+}
 .topproducts {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
     height: 200px;
     overflow-x: scroll;
