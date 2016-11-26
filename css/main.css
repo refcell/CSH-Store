@@ -68,17 +68,13 @@ ul.about {
 }
 .topproducts {
     position: relative;
-    display: inline;
     height: 200px;
     overflow-x: scroll;
-    overflow-y: hidden;
     max-width: 75%;
     min-width: 500px;
 }
 ul.topproducts {
     list-style-type: none;
-    white-space:nowrap;
-    display: inline;
     margin: 0;
     padding: 10px; 
 }
