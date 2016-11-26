@@ -68,7 +68,7 @@ ul.about {
     align-items: center;
     justify-content: center;
     position: relative;
-    height: 100px;
+    height: 200px;
     overflow-x: scroll;
     overflow-y: hidden;
     max-width: 75%;
@@ -84,7 +84,7 @@ ul.topproducts {
     display:inline;
     list-style:none;
     float:left;
-    height: 100px;
+    height: 200px;
     width: 150px;
     padding: 10px;
 }
