@@ -82,7 +82,7 @@ ul.topproducts {
     padding: 10px; 
 }
 .topproducts li {
-    display:inline;
+    display:inline-block;
     flex: 1;
     list-style:none;
     float:left;
