@@ -59,6 +59,10 @@ ul.about {
 .products {
     text-align: center;
 }
+.products img {
+    height: 40px;
+    width: 40px
+}
 .topproducts {
     display: flex;
     align-items: center;
