@@ -56,10 +56,10 @@ ul.about {
     position: absolute;
     top: 0%;
 }
-.products {
+.product {
     text-align: center;
 }
-.products img {
+.product img {
     height: 40px;
     width: 40px;
 }
