@@ -77,7 +77,7 @@ ul.about {
 ul.topproducts {
     list-style-type: none;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 0;
     padding: 10px; 
 }
