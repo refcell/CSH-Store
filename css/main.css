@@ -69,6 +69,7 @@ ul.about {
 .topproducts {
     position: relative;
     height: 200px;
+    overflow-y: hidden;
     overflow-x: scroll;
     max-width: 75%;
     min-width: 500px;
