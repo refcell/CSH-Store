@@ -67,7 +67,7 @@ ul.about {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: relative;
     height: 200px;
     overflow-x: scroll;
     overflow-y: hidden;
