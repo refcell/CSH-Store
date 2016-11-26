@@ -68,7 +68,7 @@ ul.about {
 }
 .topproducts {
     position: relative;
-    height: 200px;
+    height: 250px;
     overflow-y: hidden;
     overflow-x: scroll;
     max-width: 100%;
@@ -86,7 +86,7 @@ ul.topproducts {
     flex: 1;
     list-style:none;
     float:left;
-    height: 200px;
+    height: 250px;
     width: 150px;
     padding: 10px;
 }
