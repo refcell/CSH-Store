@@ -96,7 +96,6 @@ ul.departments {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    height: 250px;
 }
 .departments li {
     width: 25%;
