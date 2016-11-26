@@ -71,7 +71,7 @@ ul.about {
     height: 200px;
     overflow-y: hidden;
     overflow-x: scroll;
-    max-width: 75%;
+    max-width: 100%;
     min-width: 500px;
 }
 ul.topproducts {
