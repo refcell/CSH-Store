@@ -11,6 +11,7 @@
   float: right;
   width: 50%;
   height: 300px;
+  width: 300px;
 }
 .container2 p {
   float: right;
@@ -22,4 +23,5 @@
   float: left;
   width: 50%;
   height: 300px;
+  width: 300px;
 }
