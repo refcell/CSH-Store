@@ -1,11 +1,11 @@
 .container, .container2  {
-  height: 500px;
+  height: 300px;
 }
 .container p {
   float: left;
   font-size: 25px;
   width: 50%;
-  height: 500px;
+  height: 300px;
 }
 .container img {
   float: right;
@@ -16,7 +16,7 @@
   float: right;
   width: 50%;
   font-size: 25px;
-  height: 500px;
+  height: 300px;
 }
 .container2 img {
   float: left;
