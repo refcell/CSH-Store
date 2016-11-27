@@ -21,6 +21,7 @@
   height: 300px;
 }
 .cshimg {
+  float: left;
   width: 50%;
   height: 300px;
 }
