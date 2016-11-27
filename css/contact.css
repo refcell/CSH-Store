@@ -1,3 +1,6 @@
+.container, .container2  {
+  height: 500px;
+}
 .container p {
   float: left;
   width: 50%;
