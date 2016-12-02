@@ -49,22 +49,22 @@ var searchproducts = [
 ];
 function search()
 {
-  //window.location.href = 'search.html';
   console.log("1");
   var b = document.getElementById('tftextinput').value;
   var words = b.split(" ");
-      for (var i = 0; i < words.length; i++) {
-        console.log("2");
-        for (var x = 0; x < searchproducts.length; x++) { 
-          console.log("3");
-          var rowwords = searchproducts[x][0].split(" ");
-          for(var y = 0; y < rowwords.length; y++) {
-            console.log("4");
-            if(rowwords[x] == words[i]) {
-              console.log("5");
-              $("search").html(searchproducts[x][1]);
-            }
-          }
+  for (var i = 0; i < words.length; i++) {
+    console.log("2");
+    for (var x = 0; x < searchproducts.length; x++) { 
+      console.log("3");
+      var rowwords = searchproducts[x][0].split(" ");
+      for(var y = 0; y < rowwords.length; y++) {
+        console.log("4");
+        if(rowwords[x] == words[i]) {
+          console.log("5");
+          $("search").html(searchproducts[x][1]);
         }
       }
+    }
+  }
+  window.location.href = 'search.html';
 };
