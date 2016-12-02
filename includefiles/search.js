@@ -57,7 +57,7 @@ function search()
           var rowwords = searchproducts[x][0].split(" ");
           for(var y = 0; y < rowwords.length; y++) {
             if(rowwords[x].localeCompare(words[i]) == 0) {
-              $("id of ul").html(searchproducts[x][1]);
+              $("search").html(searchproducts[x][1]);
             }
           }
         }
