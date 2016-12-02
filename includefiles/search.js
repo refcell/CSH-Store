@@ -52,8 +52,8 @@ function search()
   //window.location.href = 'search.html';
   console.log("1");
   var b = document.getElementById('tftextinput').value;
-    var words = b.split(" ");
-      for (var i = 0; i < words.length - 1; i++) {
+  var words = b.split(" ");
+      for (var i = 0; i < words.length; i++) {
         console.log("2");
         for (var x = 0; x < searchproducts.length; x++) { 
           console.log("3");
