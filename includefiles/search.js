@@ -49,7 +49,7 @@ var searchproducts = [
 ];
 function search()
 {
-  window.location.href = 'search.html';
+  //window.location.href = 'search.html';
   console.log("1");
   var b = document.getElementById('tftextinput').value;
     var words = b.split(" ");
