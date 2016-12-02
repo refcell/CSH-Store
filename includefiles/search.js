@@ -51,7 +51,6 @@ var a = document.getElementById('tfnewsearch');
     a.addEventListener('submit',function(e) {
         e.preventDefault();
         var b = document.getElementById('tftextinput').value;
-        //window.location.href = 'http://mywebsite.com/'+b;
         var words = b.split(" ");
         for (var i = 0; i < words.length - 1; i++) {
           for (var x = 0; x < search.length; x++) { 
