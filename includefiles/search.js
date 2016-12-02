@@ -49,8 +49,7 @@ var searchproducts = [
 ];
 function search()
 {
-  window.open('search.html');
-  console.log("svdsdv");
+  window.location.href = 'search.html';
   var b = document.getElementById('tftextinput').value;
     var words = b.split(" ");
       for (var i = 0; i < words.length - 1; i++) {
