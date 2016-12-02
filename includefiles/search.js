@@ -47,19 +47,18 @@ var searchproducts = [
   ["trident gum pack", "trident.html"],
   ["usb thumb drive", "usb.html"]
 ];
-var a = document.getElementById('tfnewsearch');
-    a.addEventListener('submit',function(e) {
-        e.preventDefault();
-        var b = document.getElementById('tftextinput').value;
-        var words = b.split(" ");
-        for (var i = 0; i < words.length - 1; i++) {
-          for (var x = 0; x < searchproducts.length; x++) { 
-            var rowwords = searchproducts[x][0].split(" ");
-            for(var y = 0; y < rowwords.length; y++) {
-              if(rowwords[x].localeCompare(words[i]) == 0) {
-                $("id of ul").html(searchproducts[x][1]);
-              }
+function search()
+{
+  var b = document.getElementById('tftextinput').value;
+    var words = b.split(" ");
+      for (var i = 0; i < words.length - 1; i++) {
+        for (var x = 0; x < searchproducts.length; x++) { 
+          var rowwords = searchproducts[x][0].split(" ");
+          for(var y = 0; y < rowwords.length; y++) {
+            if(rowwords[x].localeCompare(words[i]) == 0) {
+              $("id of ul").html(searchproducts[x][1]);
             }
           }
         }
+      }
 });
