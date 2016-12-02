@@ -1,4 +1,4 @@
-var search = [
+var searchproducts = [
   ["four click pen", "4click.html"],
   ["altoids candy food", "altoids.html"],
   ["funny soft fluffy bunny betty eddie pen pens", "bettyediepen.html"],
@@ -53,11 +53,11 @@ var a = document.getElementById('tfnewsearch');
         var b = document.getElementById('tftextinput').value;
         var words = b.split(" ");
         for (var i = 0; i < words.length - 1; i++) {
-          for (var x = 0; x < search.length; x++) { 
-            var rowwords = search[x][0].split(" ");
+          for (var x = 0; x < searchproducts.length; x++) { 
+            var rowwords = searchproducts[x][0].split(" ");
             for(var y = 0; y < rowwords.length; y++) {
               if(rowwords[x].localeCompare(words[i]) == 0) {
-                $("id of ul").html(search[x][1])
+                $("id of ul").html(searchproducts[x][1]);
               }
             }
           }
