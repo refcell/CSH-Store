@@ -52,4 +52,15 @@ var a = document.getElementById('tfnewsearch');
         e.preventDefault();
         var b = document.getElementById('tftextinput').value;
         //window.location.href = 'http://mywebsite.com/'+b;
+        var words = b.split(" ");
+        for (var i = 0; i < words.length - 1; i++) {
+          for (var x = 0; x < search.length; x++) { 
+            var rowwords = search[x][0].split(" ");
+            for(var y = 0; y < rowwords.length; y++) {
+              if(rowwords[x].localeCompare(words[i]) == 0) {
+                $("id of ul").html(search[x][1])
+              }
+            }
+          }
+        }
 });
