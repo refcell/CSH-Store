@@ -66,5 +66,5 @@ function search()
       }
     }
   }
-  window.location.href = 'search.html';
+  //window.location.href = 'search.html';
 };
