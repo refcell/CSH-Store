@@ -60,7 +60,7 @@ function search()
           var rowwords = searchproducts[x][0].split(" ");
           for(var y = 0; y < rowwords.length; y++) {
             console.log("4");
-            if(rowwords[x].localeCompare(words[i]) == 0) {
+            if(rowwords[x] == words[i]) {
               console.log("5");
               $("search").html(searchproducts[x][1]);
             }
