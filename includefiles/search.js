@@ -62,6 +62,8 @@ function search()
         console.log("4");
         if(rowwords[y] == words[i]) {
           console.log("5");
+          console.log(searchproducts[x][1]);
+          console.log(searchproducts[x][0]);
           $(".search").html(searchproducts[x][1]);
           document.getElementById('.search').appendChild(searchproducts[x][1]);
         }
