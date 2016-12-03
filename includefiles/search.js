@@ -1,4 +1,4 @@
-$.get("search.html");
+//$.get("search.html");
 var searchproducts = [
   ["four click pen", "products/4click.html"],
   ["altoids candy food", "products/altoids.html"],
@@ -51,6 +51,7 @@ var searchproducts = [
 function search()
 {
   console.log("1");
+  var final = [];
   var b = document.getElementById('tftextinput').value;
   var words = b.split(" ");
   for (var i = 0; i < words.length; i++) {
@@ -64,13 +65,14 @@ function search()
           console.log("5");
           console.log(searchproducts[x][1]);
           console.log(searchproducts[x][0]);
-          $(".search").html(searchproducts[x][1]);
-          var e = document.getElementById('search');
+          final.push(searchproducts[x][1]); 
+          //$(".search").html(searchproducts[x][1]);
+          //var e = document.getElementById('search');
           //e.appendChild("<html-include src=" + searchproducts[x][1] + "></html-include>");
-          e.insertAdjacentHTML(beforeend, "<html-include src=" + searchproducts[x][1] + "></html-include>");
+          //e.insertAdjacentHTML(beforeend, "<html-include src=" + searchproducts[x][1] + "></html-include>");
         }
       }
     }
   }
-  window.location.href = 'search.html';
+  window.location.href = 'search.html' + '#' + final;
 };
