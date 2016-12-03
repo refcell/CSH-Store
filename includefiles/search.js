@@ -63,6 +63,7 @@ function search()
         if(rowwords[y] == words[i]) {
           console.log("5");
           $(".search").html(searchproducts[x][1]);
+          searchproducts[x][1].appendChild(".search");
         }
       }
     }
