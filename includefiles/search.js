@@ -65,7 +65,7 @@ function search()
           console.log(searchproducts[x][1]);
           console.log(searchproducts[x][0]);
           $(".search").html(searchproducts[x][1]);
-          var e = document.getElementById('.search');
+          var e = document.getElementById('search');
           //e.appendChild("<html-include src=" + searchproducts[x][1] + "></html-include>");
           e.insertAdjacentHTML(beforeend, "<html-include src=" + searchproducts[x][1] + "></html-include>");
         }
