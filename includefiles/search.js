@@ -1,3 +1,4 @@
+$.get("search.html");
 var searchproducts = [
   ["four click pen", "4click.html"],
   ["altoids candy food", "altoids.html"],
@@ -61,10 +62,10 @@ function search()
         console.log("4");
         if(rowwords[y] == words[i]) {
           console.log("5");
-          $("search").html(searchproducts[x][1]);
+          $(".search").html(searchproducts[x][1]);
         }
       }
     }
   }
-  window.location.href = 'search.html';
+  //window.location.href = 'search.html';
 };
