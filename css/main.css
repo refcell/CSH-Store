@@ -129,7 +129,7 @@ ul.departments {
 }
 ul.tabs {
     list-style:none;
-    float: left;
+    /*float: left;*/
     white-space:nowrap;
     margin: 0;
     padding: 0;   
