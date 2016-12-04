@@ -122,23 +122,30 @@ ul.departments {
     height: 75px;
     width:400px;
 }
-.tabs {
-   height: 75px;
-   width:100%;
-   background-color:#36454f;
+.tabs{
+    position:relative;
+    height: 60px;
+    width:100%;
+    background-color:#36454f;
 }
-ul.tabs {
-    list-style:none;
-    /*float: left;*/
-    white-space:nowrap;
-    margin: 0;
-    padding: 0;   
+.left{
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:60px;
+    width:100px;
 }
-ul.tabs li {
-   display:inline;
-    /*position: relative;*/
-   height: 100%;
-   width:33%;
+.middle{
+    height:60px;
+    width:100px;
+    margin:0px auto;
+}
+.right{
+    position:absolute;
+    top:0px;
+    right:0px;
+    height:60px;
+    width:100px;
 }
 .fadein { 
     position:relative; 
