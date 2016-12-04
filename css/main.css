@@ -10,6 +10,7 @@ html, body {
 }
 .searchbox {
     text-align: center;
+    overflow-y: hidden;
     display: inline-block;
     height: 30px;
     /*border-radius: 25px;*/
