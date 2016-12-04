@@ -10,7 +10,7 @@ html, body {
 }
 .searchbox {
     text-align: center;
-    border-radius: 25px;
+    //border-radius: 25px;
     width: 450px;
     position: absolute;
     top: 50%;
@@ -25,7 +25,7 @@ html, body {
     border: none;
     width: 45px;
     height: 30px;
-    background:url('./img/search.png') no-repeat;
+    background:url('search.png') no-repeat;
 }
 .connect {
     position: absolute;
