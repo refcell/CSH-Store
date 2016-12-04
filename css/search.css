@@ -1,12 +1,20 @@
 ul.search {
-    display: flex;
+    -moz-column-count: 4;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 20px;
+    column-count: 4;
+    column-gap: 20px;
+    /*display: flex;
     list-style:none;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100%;
+    width: 100%;*/
 }
+/*
 .search li {
     width: 25%;
     list-style:none;
     height: 250px;
 }
+*/
