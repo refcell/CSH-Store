@@ -65,6 +65,7 @@ function search()
           console.log("5");
           console.log(searchproducts[x][1]);
           final.push(searchproducts[x][1]); 
+          localStorage.setItem(searchproducts[x][1]);
           console.log(final[0]);
           //$(".search").html(searchproducts[x][1]);
           //var e = document.getElementById('search');
@@ -74,7 +75,6 @@ function search()
       }
     }
   }
-  localStorage.setItem(final);
   //window.location.href = 'search.html' + '#' + final;
   window.location.href = 'search.html';
 };
