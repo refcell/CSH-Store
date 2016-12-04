@@ -130,6 +130,7 @@ ul.departments {
 }
 ul.tabs {
     list-style-type: none;
+    white-space:nowrap;
     margin: 0;
     padding: 0;   
 }
