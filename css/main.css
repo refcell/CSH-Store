@@ -9,7 +9,7 @@ html, body {
     border: 0px;
 }
 .searchbox {
-    line-height: 60px;
+    top: 50%;
 }
 .connect {
     position: absolute;
