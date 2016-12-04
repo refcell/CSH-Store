@@ -52,6 +52,7 @@ function search()
 {
   var final = [];
   var b = document.getElementById('tftextinput').value;
+  b = b.toLowerCase();
   if(b.length > 0)
   {
   var words = b.split(" ");
