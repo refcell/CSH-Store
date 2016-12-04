@@ -5,7 +5,7 @@ var div = document.createElement('div');
 var finalstring = '';
 div.className = 'row';
 for(var x = 0; x < html.length; x++) {
-  for(var y = 0; y < html.length; y++) {
+  for(var y = x; y < html.length; y++) {
     if((html[y] == html[x]) && (x != y)) {
       test = true;
     }
