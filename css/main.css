@@ -8,7 +8,7 @@ html, body {
     overflow-x: hidden; 
     border: 0px;
 }
-.searchbox {
+ul.tabs li div.searchbox{
     position: absolute;
     margin: auto;
     top: 0;
@@ -133,8 +133,8 @@ ul.tabs {
     padding: 0;   
 }
 ul.tabs li {
-   /*display:inline;*/
-    position: relative;
+   display:inline;
+   position: relative;
    list-style:none;
    margin:0;
    padding:0;
