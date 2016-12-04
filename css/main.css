@@ -136,6 +136,8 @@ ul.tabs li {
    display:inline-block;
    position: relative;
    list-style:none;
+   text-align: center;
+    line-height: 100%;
    margin:0;
    padding:0;
    height: 100%;
