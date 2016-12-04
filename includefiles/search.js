@@ -50,32 +50,22 @@ var searchproducts = [
 ];
 function search()
 {
-  console.log("1");
   var final = [];
   var b = document.getElementById('tftextinput').value;
+  if(b.length > 0)
+  {
   var words = b.split(" ");
   for (var i = 0; i < words.length; i++) {
-    console.log("2");
     for (var x = 0; x < searchproducts.length; x++) { 
-      console.log("3");
       var rowwords = searchproducts[x][0].split(" ");
       for(var y = 0; y < rowwords.length; y++) {
-        console.log("4");
         if(rowwords[y] == words[i]) {
-          console.log("5");
-          console.log(searchproducts[x][1]);
           final.push(searchproducts[x][1]); 
-          //localStorage.setItem(searchproducts[x][1]);
-          console.log(final[0]);
-          //$(".search").html(searchproducts[x][1]);
-          //var e = document.getElementById('search');
-          //e.appendChild("<html-include src=" + searchproducts[x][1] + "></html-include>");
-          //e.insertAdjacentHTML(beforeend, "<html-include src=" + searchproducts[x][1] + "></html-include>");
         }
       }
     }
   }
   localStorage.setItem('html', JSON.stringify(final));
-  //window.location.href = 'search.html' + '#' + final;
   window.location.href = 'search.html';
+  }
 };
