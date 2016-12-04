@@ -1,7 +1,7 @@
 ul.search {
     display: flex;
     list-style:none;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
 }
@@ -9,8 +9,4 @@ ul.search {
     width: 25%;
     list-style:none;
     height: 250px;
-}
-.row {
-    width: 100%;
-    height: 100%;
 }
