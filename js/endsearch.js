@@ -19,7 +19,7 @@ for(var x = 0; x < html.length; x++) {
 }
 div.innerHTML = finalstring;
 if(finalstring == "") {
-  finalstring = "<br  />" + "<br  />" + "<h1>No Products Found</h1>" + "<p>Try searching with a different search term or view our departments</p>;
+  finalstring = "<br  />" + "<br  />" + "<h1>No Products Found</h1>" + "<p>Try searching with a different search term or view our departments</p>";
   noresults.innerHTML = finalstring;
   document.getElementById('search').appendChild(noresults);
 }
