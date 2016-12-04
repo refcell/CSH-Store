@@ -9,7 +9,7 @@ html, body {
     border: 0px;
 }
 .searchbox {
-    text-align: center;
+    /*text-align: center;*/
     display: inline;
     height: 30px;
     /*border-radius: 25px;*/
