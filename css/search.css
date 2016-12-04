@@ -8,3 +8,6 @@ ul.search {
     list-style:none;
     height: 100%;
 }
+.search li {
+ position: absolute;
+}
