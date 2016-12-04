@@ -13,6 +13,14 @@ html, body {
     top: 50%;
     transform: translateY(-50%);
 }
+.tftextinput {
+    width: 150px;
+    height: 45px;
+}
+.tfbutton {
+    width: 45px;
+    height: 45px;
+}
 .connect {
     position: absolute;
     height: 25px;
