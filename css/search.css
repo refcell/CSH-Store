@@ -6,4 +6,5 @@ ul.search {
     column-count: 4;
     column-gap: 20px;
     list-style:none;
+    height: 100%;
 }
