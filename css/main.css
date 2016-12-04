@@ -10,13 +10,13 @@ html, body {
 }
 .searchbox {
     text-align: center;
-    width: 300px;;
+    width: 400px;;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
 .tftextinput {
-    width: 250px;
+    width: 400px;
     height: 30px;
 }
 .tfbutton {
@@ -144,7 +144,7 @@ ul.departments {
 }
 .middle{
     height:60px;
-    width:300px;
+    width:400px;
     margin:0px auto;
 }
 .right{
