@@ -10,7 +10,8 @@ html, body {
 }
 .searchbox {
     text-align: center;
-    //border-radius: 25px;
+    height: 30px;
+    /*border-radius: 25px;*/
     width: 450px;
     position: absolute;
     top: 50%;
