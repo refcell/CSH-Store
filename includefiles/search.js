@@ -69,3 +69,9 @@ function search()
   window.location.href = 'search.html';
   }
 };
+function handle(e){
+  if(e.keyCode === 13){
+    e.preventDefault();
+    search();
+  }
+};
