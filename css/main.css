@@ -16,7 +16,7 @@ html, body {
     transform: translateY(-50%);
 }
 .tftextinput {
-    box-shadow: none;
+    outline: none;
     float:left;
     border: none;
     width: 400px;
