@@ -22,6 +22,7 @@ html, body {
     height: 30px;
 }
 .tfbutton {
+    text-indent: -9000px; 
     border: none;
     width: 30px;
     height: 30px;
