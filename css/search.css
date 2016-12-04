@@ -5,16 +5,5 @@ ul.search {
     -webkit-column-gap: 20px;
     column-count: 4;
     column-gap: 20px;
-    /*display: flex;
     list-style:none;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;*/
 }
-/*
-.search li {
-    width: 25%;
-    list-style:none;
-    height: 250px;
-}
-*/
