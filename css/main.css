@@ -10,16 +10,18 @@ html, body {
 }
 .searchbox {
     text-align: center;
-    width: 400px;;
+    width: 450px;;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
 .tftextinput {
+    border: none;
     width: 400px;
     height: 30px;
 }
 .tfbutton {
+    border: none;
     width: 45px;
     height: 30px;
     background:url(img/search.png) no-repeat;
@@ -144,7 +146,7 @@ ul.departments {
 }
 .middle{
     height:60px;
-    width:400px;
+    width:450px;
     margin:0px auto;
 }
 .right{
