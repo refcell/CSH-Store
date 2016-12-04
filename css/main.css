@@ -10,7 +10,8 @@ html, body {
 }
 .searchbox {
     text-align: center;
-    width: 450px;;
+    border-radius: 25px;
+    width: 450px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
