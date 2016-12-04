@@ -15,11 +15,11 @@ html, body {
 }
 .tftextinput {
     width: 150px;
-    height: 45px;
+    height: 35px;
 }
 .tfbutton {
     width: 45px;
-    height: 45px;
+    height: 35px;
     background:url(img/search.jpg) no-repeat;
 }
 .connect {
@@ -142,7 +142,7 @@ ul.departments {
 }
 .middle{
     height:60px;
-    width:200px;
+    width:300px;
     margin:0px auto;
 }
 .right{
