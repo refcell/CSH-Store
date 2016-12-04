@@ -64,8 +64,8 @@ function search()
         if(rowwords[y] == words[i]) {
           console.log("5");
           console.log(searchproducts[x][1]);
-          console.log(searchproducts[x][0]);
           final.push(searchproducts[x][1]); 
+          console.log(final[0]);
           //$(".search").html(searchproducts[x][1]);
           //var e = document.getElementById('search');
           //e.appendChild("<html-include src=" + searchproducts[x][1] + "></html-include>");
@@ -74,5 +74,7 @@ function search()
       }
     }
   }
-  window.location.href = 'search.html' + '#' + final;
+  localStorage.setItem(final);
+  //window.location.href = 'search.html' + '#' + final;
+  window.location.href = 'search.html';
 };
