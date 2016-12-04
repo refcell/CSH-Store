@@ -1,0 +1,12 @@
+ul.search {
+    display: flex;
+    list-style:none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.search li {
+    width: 25%;
+    list-style:none;
+    height: 250px;
+}
