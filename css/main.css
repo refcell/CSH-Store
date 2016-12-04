@@ -10,21 +10,20 @@ html, body {
 }
 .searchbox {
     text-align: center;
-    overflow-y: hidden;
-    display: inline-block;
     height: 30px;
-    /*border-radius: 25px;*/
     width: 450px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
 .tftextinput {
+    display: table-cell
     border: none;
     width: 400px;
     height: 30px;
 }
 .tfbutton {
+    display: table-cell
     /*text-indent: -9000px; */
     border: none;
     width: 30px;
