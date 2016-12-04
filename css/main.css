@@ -17,13 +17,13 @@ html, body {
     transform: translateY(-50%);
 }
 .tftextinput {
-    display: table-cell
+    display: table-cell;
     border: none;
     width: 400px;
     height: 30px;
 }
 .tfbutton {
-    display: table-cell
+    display: table-cell;
     /*text-indent: -9000px; */
     border: none;
     width: 30px;
