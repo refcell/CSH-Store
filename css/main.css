@@ -8,7 +8,7 @@ html, body {
     overflow-x: hidden; 
     border: 0px;
 }
-ul.tabs li div.searchbox{
+.searchbox {
     position: absolute;
     text-align: center;
     margin: auto;
