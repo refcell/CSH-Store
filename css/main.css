@@ -38,6 +38,9 @@ html, body {
     background-color: #EE3B3B;
     background-image: url('newsearch.png');
 }
+.tfbutton:hover {
+    background-color: #DB2929;
+    }
 .connect {
     position: absolute;
     height: 25px;
