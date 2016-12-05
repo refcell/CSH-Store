@@ -35,6 +35,7 @@ html, body {
     border: none;
     width: 30px;
     height: 30px;
+    background-color: #EE3B3B;
     background-image: url('newsearch.png');
 }
 .connect {
