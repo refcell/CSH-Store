@@ -35,12 +35,12 @@ html, body {
     border: none;
     width: 30px;
     height: 30px;
-    background-color: #B22222;
+    background-color: white; /*#B22222;*/
     background-image: url('newsearch.png');
 }
-.tfbutton:hover {
+/*.tfbutton:hover {
     background-color: #A62A2A;
-    }
+    }*/
 .connect {
     position: absolute;
     height: 25px;
