@@ -141,6 +141,9 @@ ul.departments {
     width: 100%;
     text-align:center;
 }
+.titlea {
+    height: 75px;
+}
 .title img {
     vertical-align: middle;
     height: 75px;
